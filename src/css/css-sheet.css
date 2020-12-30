@@ -1,5 +1,5 @@
 body{
-background-image: linear-gradient(45deg, rgb(85, 179, 233),rgb(45, 113, 177), rgb(16, 63, 163));
+background-image: linear-gradient(45deg, rgb(85, 179, 233),rgb(221 226 230), rgb(16, 63, 163));
 background-attachment: fixed;
 /* background-size: 400% 400%;
    animation: change 10s ease-in-out infinite ; */
@@ -89,10 +89,13 @@ color: #007bff;
  border-radius: 22px !important;
 }
 .ui.link.card{
-    min-width: 450px !important;
+    width: 80% !important;
    
     border: 1px solid #007bff !important;
 }
+.fields .seven.wide.field{
+       padding-right: 0 !important;
+   }
 
 
 

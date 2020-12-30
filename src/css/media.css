@@ -1,19 +1,38 @@
 /*mobile screens*/
 @media (max-width:767px){
-
-    /* .navbar-inverse .navbar-nav > li > a {
-      padding: 10px 25px;
+    .eight.wide.column.pro-list{
+        width: 400px !important;
     }
-    .navbar-fixed-top .navbar-collapse, 
-    .navbar-fixed-bottom .navbar-collapse{
-        max-height: none;
+    .list{
+        width: 100% !important;
     }
-    .sub .form-control{
-        margin:20px auto;
+    .ui.link.card{
+        width: 100% !important;
+        
+    }
+    .ui.form .seven.wide.field{
+        width: 75% !important;
+    }
+   .ui.form:not(.unstackable) .fields:not(.unstackable)>.seven.wide.field{
+       width: 75% !important;
+       padding-right: 4px !important;
+   }
+   .ui.form:not(.unstackable) .fields:not(.unstackable)>.four.wide.field{
+       width: 20% !important;
+   }
+  
 
-    } */
-.notifications{
-    display: none !important;
+    .ui.column.grid>[class*="five wide"].column, .ui.grid>.column.row>[class*="five wide"].column, .ui.grid>.row>[class*="five wide"].column, .ui.grid>[class*="five wide"].column {
+        width: 44% !important;
+    }
+.dashboard .ui.grid [class*="right floated"].column {
+    margin-left: 0;
+}
+
+
+.notifications p{
+    font-size: 12px;
+    /* display: none !important; */
 }
 }
 /*small screens*/

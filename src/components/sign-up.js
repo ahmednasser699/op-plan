@@ -54,7 +54,7 @@ class SignUp extends Component {
                 </div>
                 
                  <div className=" fields">
-                 <div className="seven wide field" style={{paddingRight:'0'}}>
+                 <div className="seven wide field">
                     <label >Password</label>
                     <input type={this.state.passclass} id="password" placeholder="Password" onChange={(e)=>this.onInputChange(e)} value={this.state.password} />
                 </div>

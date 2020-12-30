@@ -41,7 +41,7 @@ const proDetails = (props) => {
     };
     return (
         <div className="ui items" style={{textAlign:'center'}}>
-           <div className="ui card" style={{width:'600px', margin:'auto', marginTop:'20px', padding:'20px'}}>
+           <div className="ui card" style={{width:'70%', margin:'auto', marginTop:'20px', padding:'20px'}}>
             <div className="item">
                 
                 <div className="content" >
